@@ -16,7 +16,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 345,
             "y": 450
           }
@@ -32,7 +32,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 638,
             "y": 565
           }
@@ -48,7 +48,7 @@
           {
             "name": "Hallway Brewing Crate",
             "access_rules": [
-              "$brewer"
+              "brewer"
             ],
             "item_count": 1
           },
@@ -59,7 +59,7 @@
           {
             "name": "Secret Room",
             "access_rules": [
-              "$ice"
+              "ice"
             ],
             "item_count": 1
           },
@@ -74,7 +74,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 490,
             "y": 341
           }
@@ -85,6 +85,10 @@
         "sections": [
           {
             "name": "Cheating the Race",
+            "access_rules": [
+              "[timestop], sprint",
+              "timestop"
+            ],
             "item_count": 1
           },
           {
@@ -94,7 +98,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 250,
             "y": 430
           }
@@ -114,7 +118,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 415,
             "y": 261
           }
@@ -130,7 +134,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 465,
             "y": 368
           }
@@ -146,7 +150,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 370,
             "y": 510
           }
@@ -162,7 +166,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 675,
             "y": 305
           }
@@ -182,7 +186,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 250,
             "y": 150
           }
@@ -198,7 +202,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 630,
             "y": 385
           }
@@ -214,7 +218,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 655,
             "y": 445
           }
@@ -230,7 +234,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 540,
             "y": 285
           }
@@ -246,7 +250,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 555,
             "y": 535
           }
@@ -266,9 +270,9 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
-            "x": 515,
-            "y": 270
+            "map": "mafiatown",
+            "x": 510,
+            "y": 255
           }
         ]
       },
@@ -282,14 +286,14 @@
           {
             "name": "Brewing Crate",
             "access_rules": [
-              "$brewer"
+              "brewer"
             ],
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 460,
             "y": 525
           }
@@ -305,7 +309,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 450,
             "y": 260
           }
@@ -321,7 +325,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 390,
             "y": 250
           }
@@ -337,7 +341,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 435,
             "y": 480
           }
@@ -353,7 +357,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 540,
             "y": 110
           }
@@ -369,7 +373,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 691,
             "y": 41
           }
@@ -385,7 +389,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 850,
             "y": 320
           }
@@ -394,7 +398,7 @@
       {
         "name": "Above Boats",
         "access_rules": [
-          "$hookshot"
+          "hookshot"
         ],
         "sections": [
           {
@@ -404,7 +408,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 887,
             "y": 325
           }
@@ -420,7 +424,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 432,
             "y": 561
           }
@@ -436,7 +440,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 740,
             "y": 440
           }
@@ -452,7 +456,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 245,
             "y": 55
           }
@@ -472,7 +476,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 365,
             "y": 170
           }
@@ -481,7 +485,7 @@
       {
         "name": "Top of Ruined Tower",
         "access_rules": [
-          "$ice"
+          "ice"
         ],
         "sections": [
           {
@@ -491,7 +495,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 280,
             "y": 350
           }
@@ -500,7 +504,7 @@
       {
         "name": "Ice Hat Cage",
         "access_rules": [
-          "$ice"
+          "ice"
         ],
         "sections": [
           {
@@ -510,7 +514,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 780,
             "y": 355
           }
@@ -519,7 +523,7 @@
       {
         "name": "Hot Air Balloon",
         "access_rules": [
-          "$ice"
+          "ice"
         ],
         "sections": [
           {
@@ -529,9 +533,9 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 545,
-            "y": 700
+            "y": 670
           }
         ]
       },
@@ -545,7 +549,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 780,
             "y": 580
           }
@@ -561,7 +565,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 590,
             "y": 500
           }
@@ -570,7 +574,7 @@
       {
         "name": "Secret Cave",
         "access_rules": [
-          "$brewer"
+          "brewer"
         ],
         "sections": [
           {
@@ -580,7 +584,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 510,
             "y": 515
           }
@@ -596,7 +600,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 365,
             "y": 345
           }
@@ -612,7 +616,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 760,
             "y": 460
           }
@@ -628,7 +632,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 273,
             "y": 630
           }
@@ -644,7 +648,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 310,
             "y": 510
           }
@@ -660,16 +664,16 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 310,
-            "y": 680
+            "y": 670
           }
         ]
       },
       {
         "name": "Top of Lighthouse",
         "access_rules": [
-          "$hookshot"
+          "hookshot"
         ],
         "sections": [
           {
@@ -679,7 +683,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 839,
             "y": 513
           }
@@ -695,7 +699,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 270,
             "y": 230
           }
@@ -704,7 +708,7 @@
       {
         "name": "Clock Tower Chest",
         "access_rules": [
-          "$hookshot"
+          "hookshot"
         ],
         "sections": [
           {
@@ -714,7 +718,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 392,
             "y": 435
           }
@@ -730,7 +734,7 @@
         ],
         "map_locations": [
           {
-            "map": "mafiaTown",
+            "map": "mafiatown",
             "x": 410,
             "y": 150
           }
